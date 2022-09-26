@@ -1,76 +1,208 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
+body {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    background: #000;
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  
+ 
 }
-.chef-part{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 5px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.chef-part .meet{
-width: 200px;
-height: 50px;
-color: #fff;
-font-size: 24px;
-padding: 15px 15px;
-margin: 50px  auto;
-border-radius: 4px;
-background-image:
-linear-gradient(180deg, #eeb30f 100%, #fff 10%);
-background-size: 100% 3px;
-text-align: center;
-background-repeat: no-repeat;
+nav{
+  display: flex;
+  margin: 10px;
+ 
+} 
+.logo{
+  flex: 1;
+  text-align: center;
 
 }
-.chef-part .container{  
-    /* max-width: 1200px;
-    margin: 0 auto;
-    padding: 5px 20px; */
-    /* background-color: #ddd; */
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px 20px;
-    flex-wrap: wrap;       
+.logo img{
+  border-radius: 100px;
+ margin: 5px;
+ background-size: cover;
+ background-position: center;
 }
-.chef-part .container .chef {   
+.search-bar{
+  flex: 1;
+}
+.navbar{
+  flex: 2;
+  width: 100%;
+  text-align: center;
+  margin: 2%; 
+  font-weight:800;
+
+
+}
+
+.navbar a{
+  font-size: 18px;
+  padding: 20px;
+  align-items: center;
+  color: white ;
+  text-decoration: none;
+}
+.navbar .active{
+  color:  #FCC403  ;
+}
+.navbar a:hover{
+  color:  #FCC403;
+  border-radius: 10px;
+  border:2px solid white;
+
+}
+
+.navbar .active:hover{
+  color: #FCC403;
+  text-decoration: underline;
+}
+.mySearch{
+  
+  margin: 8%;
+  width: 20%;
+  border-radius: 8px;
+  height: 30%;
+  border: 2px solid #FCC403;
+  background: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: 0;
+  
+}
+.mySearch:hover{
+  width: 70%;
+}
+
+.main-container{
+  width: 100%;
+  display: flex;
     height: 100%;
-    flex: 1;
-    background:#000;
-    padding: 10px;
-    text-align: center;
-    line-height: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    border-radius: 5%;
-    border: 2px solid #eeb30f;
+}
+.right-container{
+flex: 1;
+margin-left: 150px;
+height: 100%;
 
 }
-.chef-part .container .chef .info {    
-    flex: 1;
-    border-radius: 20px;
-    margin: 0 auto;
-    padding: 5px 0;
-    background: linear-gradient(130deg,#fff,#eeb30f);    
-    color: #fff;
+.left-container{
+flex: 1;
+margin-right: 50px;
+border: 2px solid  #FCC403;
+border-radius: 8px;
+
+}
+.right-container h1{
+margin-top: 100px;
+font-size: 60px;
+width: 65%;
+color: #FCC403;
 }
 
- .chef-part .container .chef .info img{
-    width: 19rem;
-    height: 22rem;      
-} 
-.chef-part .container .chef .info h4{
-    font-size: 18px;
-} 
-.chef-part .container .chef .info h5{
-    font-size: 14px;
-} 
+.right-container h4{
+font-size: 30px;
+color: white;
+margin-top: 100px;
+
+}
+.right-container p{
+color: white;
+text-align: justify;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 70%;
+margin-top: 70px;
+font-size: larger;
+
+}
+
+.right-container .menu-btn{
+
+background-color: #FCC403 ;
+color: white;
+font-size: 21px;
+line-height: 21px;
+padding: 9px; 
+font-weight: normal;
+text-decoration: none;
+box-sizing: content-box;
+border-radius: 10px;
+margin-top: 80px;
+font-weight: bold;
+}
+.right-container .menu-btn:hover{
+background-color: white;
+color:  #FCC403;
+}
+.left-container img{
+margin-top: 5px;
+}
+
+  
+
+
+.speciality h1{
+  font-size:50px ;
+  text-align: center;
+  color: #FCC403;
+  
+}
+.speciality h1:hover{
+ text-decoration: underline;
+ 
+  
+}
+.speciality  span{
+  color: white;
+}
+
+.speciality .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+.speciality .box-container .box{
+  flex:1 1 30rem;
+  position: relative;
+  overflow: hidden;
+  border:1px solid #FCC403;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+
+.speciality .box-container .box .content{
+  text-align: center;
+  background:#fff;
+  padding:25px;
+  background-color: #000000;
+  
+}
+
+.speciality .box-container .box .content img{
+  max-width: 100%;  
+  height: fit-content;
+
+
+}
+
+.speciality .box-container .box .content h3{
+  font-size: 2.5rem;
+  color: #FCC403;
+
+ 
+ 
+
+}
+
+.speciality .box-container .box .content:hover{
+  border:1px solid black;
+  padding:0px;
+  background-color: #fff;
+  height: 100%;
+  
+}
+
