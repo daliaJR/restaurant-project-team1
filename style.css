@@ -275,11 +275,7 @@ background-repeat: no-repeat;
 /*End of chef section*/
 /*footer branch*/
 
-footer{
-  position: fixed;
-  bottom: 0;
 
-}
 /*..mobile.........*/
 @media only screen and (max-width:369px){
  footer {
