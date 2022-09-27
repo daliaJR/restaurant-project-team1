@@ -1,4 +1,13 @@
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background: #000;
+}
 nav{
   display: flex;
   margin: 10px;
@@ -194,17 +203,8 @@ margin-top: 5px;
   height: 100%;
   
 }
+/*start of chef part*/
 
-=======
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
-}
-body{
-    background: #000;
-}
 .chef-part{
     max-width: 1200px;
     margin: 0 auto;
@@ -271,7 +271,9 @@ background-repeat: no-repeat;
 } 
 .chef-part .container .chef .info h5{
     font-size: 14px;
-} /*footer branch*/
+} 
+/*End of chef section*/
+/*footer branch*/
 
 footer{
   position: fixed;
