@@ -1,0 +1,207 @@
+/* start of the menu cards style */
+* {
+    font-family: Helvetica, sans-serif;
+}
+body {
+    background-color: #000000;
+}
+
+.cards {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 2fr));
+    gap: 20px;
+
+
+}
+
+.card {
+    border: 3px solid yellow;
+    border-radius: 15px;
+    max-height: auto;
+
+
+}
+
+
+
+.card-image {
+    width: 100%;
+    display: block;
+    height: 150px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+
+
+
+}
+
+
+.card-content {
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 10px;
+    background: #000000;
+    color: #ffffff;
+    height: 220px;
+    /* max-width: auto; */
+
+
+}
+
+.card-content>p:first-of-type {
+    margin-top: 0;
+
+}
+
+.card-content>p:last-of-type {
+    /* margin-bottom:2px; */
+    margin-bottom: auto;
+}
+
+.card-info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #eeeeee;
+    color: #5e5555;
+    font-size: 0.9em;
+    border-top: 3px solid #ffee00;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+
+}
+
+.card-info i {
+    color: #343327;
+    font-size: 1;
+
+
+}
+
+.card-link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin-left: auto;
+    font-size: 3rem;
+    color: #FFF01F;
+    text-align: center;
+   
+
+}
+
+#price {
+    font-size: 22px;
+    color: rgb(255, 230, 0);
+    text-shadow:
+
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+
+}
+
+.menu-cards {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* desserts part start here  */
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:15px;
+	border:1px solid #ffaa22;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 10px;
+	text-decoration:none;
+	text-shadow:-1px 1px 0px #ffee66;
+    margin: 15px;
+    text-align: center;
+   /* width: 50%; */
+   height: 30%;
+  
+
+   
+    
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.dessert-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+    font-size: 16px;
+    justify-content: center;
+
+}
+
+.des-card > p {
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.des-card  {
+    border: 5px solid #000000;
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    font-size: 16px;
+    background-color: #000000;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 3px solid yellow;
+
+    
+} 
+.des-img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+.des-card > h3 {
+ text-align: center;
+ color: #fff;
+ font-size: 22px;
+}
