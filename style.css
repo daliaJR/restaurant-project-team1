@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*..mobile.........*/
 @media only screen and (max-width:369px){
   footer {
@@ -173,3 +174,515 @@
  
  
  
+=======
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background: #000;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+  display: flex;
+  margin: 10px;
+ 
+} 
+.logo{
+  flex: 1;
+  text-align: center;
+
+}
+.logo img{
+  border-radius: 100px;
+ margin: 5px;
+ background-size: cover;
+ background-position: center;
+}
+.search-bar{
+  flex: 1;
+}
+.navbar{
+  flex: 2;
+  width: 100%;
+  text-align: center;
+  margin: 2%; 
+  font-weight:800;
+
+
+}
+
+.navbar a{
+  font-size: 18px;
+  padding: 20px;
+  align-items: center;
+  color: white ;
+  text-decoration: none;
+}
+.navbar .active{
+  color:  #FCC403  ;
+}
+.navbar a:hover{
+  color:  #FCC403;
+  border-radius: 10px;
+  border:2px solid white;
+
+}
+
+.navbar .active:hover{
+  color: #FCC403;
+  text-decoration: underline;
+}
+.mySearch{
+  
+  margin: 8%;
+  width: 20%;
+  border-radius: 8px;
+  height: 30%;
+  border: 2px solid #FCC403;
+  background: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: 0;
+  
+}
+.mySearch:hover{
+  width: 70%;
+}
+
+.main-container{
+  width: 100%;
+  display: flex;
+    height: 100%;
+}
+.right-container{
+flex: 1;
+margin-left: 150px;
+height: 100%;
+
+}
+.left-container{
+flex: 1;
+margin-right: 50px;
+border: 2px solid  #FCC403;
+border-radius: 8px;
+
+}
+.right-container h1{
+margin-top: 100px;
+font-size: 60px;
+width: 65%;
+color: #FCC403;
+}
+
+.right-container h4{
+font-size: 30px;
+color: white;
+margin-top: 100px;
+
+}
+.right-container p{
+color: white;
+text-align: justify;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 70%;
+margin-top: 70px;
+font-size: larger;
+
+}
+
+.right-container .menu-btn{
+
+background-color: #FCC403 ;
+color: white;
+font-size: 21px;
+line-height: 21px;
+padding: 9px; 
+font-weight: normal;
+text-decoration: none;
+box-sizing: content-box;
+border-radius: 10px;
+margin-top: 80px;
+font-weight: bold;
+}
+.right-container .menu-btn:hover{
+background-color: white;
+color:  #FCC403;
+}
+.left-container img{
+margin-top: 5px;
+}
+
+  
+
+
+.speciality h1{
+  font-size:50px ;
+  text-align: center;
+  color: #FCC403;
+  
+}
+.speciality h1:hover{
+ text-decoration: underline;
+ 
+  
+}
+.speciality  span{
+  color: white;
+}
+
+.speciality .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+.speciality .box-container .box{
+  flex:1 1 30rem;
+  position: relative;
+  overflow: hidden;
+  border:1px solid #FCC403;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+
+.speciality .box-container .box .content{
+  text-align: center;
+  background:#fff;
+  padding:25px;
+  background-color: #000000;
+  
+}
+
+.speciality .box-container .box .content img{
+  max-width: 100%;  
+  height: fit-content;
+
+
+}
+
+.speciality .box-container .box .content h3{
+  font-size: 2.5rem;
+  color: #FCC403;
+
+ 
+ 
+
+}
+
+.speciality .box-container .box .content:hover{
+  border:1px solid black;
+  padding:0px;
+  background-color: #fff;
+  height: 100%;
+  
+}
+/*start of chef section*/
+
+.chef-part{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5px 20px;
+}
+.chef-part .container{      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px 20px;
+    flex-wrap: wrap;       
+}
+.chef-part .container .chef {   
+    height: 100%;
+    flex:1 1 31.5%;
+    background:#000;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 5%;
+    border: 2px solid #FCC403;
+
+}
+.chef-part .container .chef .info {    
+    flex: 1;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 5px 0;
+    background: linear-gradient(130deg,#fff,#FCC403);    
+    color: #fff;
+}
+
+ .chef-part .container .chef .info img{
+    width: 19rem;
+    height: 22rem;      
+} 
+.chef-part .container .chef .info h4{
+    font-size: 22px;
+} 
+.chef-part .container .chef .info h5{
+    font-size: 16px;
+} 
+/*End of chef section*/
+
+/* Subt-title style */
+ .sub-title{
+  font-size:40px ;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px;
+}
+.sub-title:hover{
+  text-decoration: underline;
+  text-decoration-color:#FCC403;
+}
+/* Start of Booking Section */
+.trans-background{
+  width: 80%;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+.trans-background::after{
+  content: "";
+  background: url('/img/burger44.jpg') no-repeat;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;   
+}
+.booking .container{
+  height: 40%; 
+  margin: 50px auto 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.booking .container .box{
+  color:#fff;
+  margin: 0 auto;
+  padding: 30px;
+  width: 35%;
+  background-color: rgba(88, 88, 88, 0.6);/*check this*/
+  border-radius: 10px;  
+}
+.booking .container .box h1{
+ font-family: bold;
+ font-size: 25px;
+ margin-bottom: 10px;
+}
+.booking .container .box p{
+  font-family: bold;
+  font-size: 20px;
+}
+
+.booking .container .form-child .form-container{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.booking .container .form-child .form-container .form-box button{
+padding: 10px;
+font-size: 14px;
+border-radius: 10%;
+margin-left: 50px;
+
+}
+.form-box > label{
+  display: inline-block;
+  width: 140px;
+  text-align: left; 
+}
+.form-box  input{
+  border-radius:10%;
+  width: 12rem;
+  height: 30px;
+  justify-self: flex-end;
+  background-color: rgba(255, 255, 255, 1);
+}
+.form-box textarea{
+  padding: 5px 10px;
+  width: 95%;  
+}
+.btn{
+background-color: #FCC403 ;
+color: white;
+font-size: 21px;
+line-height: 21px;
+padding: 9px; 
+margin-top: 10px;
+/* font-weight: normal; */
+text-decoration: none;
+border-radius: 10px;
+/* margin-top: 80px; */
+font-weight: bold;
+}
+.btn:hover{
+  background-color: white;
+  color:  #FCC403;
+}
+/* End of booking section */
+/*footer branch*/
+
+
+/*..mobile.........*/
+@media only screen and (max-width:369px){
+ footer {
+        position:fixed;
+    }
+  .footer-content{
+     box-sizing: border-box;
+    background-color:#02060d;
+
+  color:#f5f9ff;
+  }
+}
+
+/*..tablet.........*/
+@media only screen and (min-width:370px) and (max-width:768px){
+  
+.footer-content{
+  display: flex;
+  padding: 1% 10% 0% 10%;
+  background-color:#02060d;
+  width: 70%;
+  color:#f5f9ff;
+}
+
+.footer-left{
+   margin-right:5% ;
+}
+.footer-center{
+   margin-right:15% ;
+
+}
+.footer-rightcol{
+ display: flex; 
+
+
+}
+#footer-right-col{
+    flex: 40%;
+
+}
+}
+
+/*..Desktop.........*/
+@media only screen and (min-width:769px){
+  
+.footer-content{
+  display: flex;
+  padding: 1% 10% 0% 2%;
+background-color:#02060d;
+  width: 100%;
+  color:#f5f9ff;
+}
+
+.footer-left{
+   margin-right:18% ;
+}
+.footer-center{
+   margin-right:25% ;
+}
+.footerHeading{
+  font-family: cursive;
+    color: #f4ac10ff;
+}
+  
+  .footer-links a{
+  color: #ffff;
+  list-style-type: none;
+  text-decoration: none;
+    
+}
+  .footerBurgerName{
+    margin-top:30%;
+  }
+.footer-rightcol{
+ display: flex; 
+
+
+}
+#footer-right-col{
+    flex: 40%;
+}
+}
+
+
+
+/*...............icons................*/
+.footer-links a{
+  color: #ffff;
+  list-style-type: none;
+
+    text-decoration: none;
+}
+
+.fa {
+  padding:1% 2%;
+    
+  font-size: 10%;
+  
+  
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+
+fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #e9891c;
+  color: white;
+}
+
+.fa-phone,.fa-envelope{
+   background: #e9891c;
+  color: white;
+}
+
+
+
+
+
+
+
+
+>>>>>>> 8b8e4ff03106190918f5d80a3d3991f285a46d16
