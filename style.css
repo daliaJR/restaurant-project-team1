@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 *{
   box-sizing: border-box;
   margin: 0;
@@ -34,7 +32,7 @@ nav{
   width: 100%;
   text-align: center;
   margin: 2%; 
-  font-weight:800;
+  font-weight:800px;
 
 
 }
@@ -111,14 +109,15 @@ margin-top: 100px;
 .right-container p{
 color: white;
 text-align: justify;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 width: 70%;
 margin-top: 70px;
 font-size: larger;
 
 }
+  /* For the below .menu-btn, replaced it by .btn class to design all buttons regarding to it  */
 
-.right-container .menu-btn{
+/* .right-container .menu-btn{
 
 background-color: #FCC403 ;
 color: white;
@@ -135,14 +134,15 @@ font-weight: bold;
 .right-container .menu-btn:hover{
 background-color: white;
 color:  #FCC403;
-}
+} */
 .left-container img{
 margin-top: 5px;
+width: 100%; /*!new add*/
 }
 
   
-
-
+/* used subtitle 1* */
+/*
 .speciality h1{
   font-size:50px ;
   text-align: center;
@@ -157,19 +157,24 @@ margin-top: 5px;
 .speciality  span{
   color: white;
 }
-
+*/
 .speciality .box-container{
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  gap:15px;
+  gap: 50px 20px;
+
 }
 .speciality .box-container .box{
-  flex:1 1 30rem;
+  width: 31.5%;
+  padding: 10px;
   position: relative;
   overflow: hidden;
-  border:1px solid #FCC403;
+  border:2px solid #FCC403;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 5%;
   
 }
 
@@ -185,6 +190,7 @@ margin-top: 5px;
 .speciality .box-container .box .content img{
   max-width: 100%;  
   height: fit-content;
+  border-radius: 5%;
 
 
 }
@@ -203,6 +209,7 @@ margin-top: 5px;
   padding:0px;
   background-color: #fff;
   height: 100%;
+  border-radius: 5%;
   
 }
 /*start of chef section*/
@@ -254,6 +261,11 @@ margin-top: 5px;
     font-size: 16px;
 } 
 /*End of chef section*/
+/*Capitalize first letter  */
+.content h3:first-letter{
+   
+  text-transform: capitalize;
+}
 
 /* Subt-title style */
  .sub-title{
